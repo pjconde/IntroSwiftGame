@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E47FBC31E077F980064F3B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FBC21E077F980064F3B6 /* AppDelegate.swift */; };
+		2E47FBC51E077F980064F3B6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FBC41E077F980064F3B6 /* GameScene.sks */; };
+		2E47FBC71E077F980064F3B6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FBC61E077F980064F3B6 /* Actions.sks */; };
+		2E47FBC91E077F980064F3B6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FBC81E077F980064F3B6 /* GameScene.swift */; };
+		2E47FBCB1E077F980064F3B6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FBCA1E077F980064F3B6 /* GameViewController.swift */; };
+		2E47FBCE1E077F980064F3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FBCC1E077F980064F3B6 /* Main.storyboard */; };
+		2E47FBD01E077F980064F3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FBCF1E077F980064F3B6 /* Assets.xcassets */; };
+		2E47FBD31E077F980064F3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E47FBD11E077F980064F3B6 /* LaunchScreen.storyboard */; };
+		2E47FBDE1E077F980064F3B6 /* Flappy_ShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FBDD1E077F980064F3B6 /* Flappy_ShipTests.swift */; };
+		2E47FBE91E077F980064F3B6 /* Flappy_ShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E47FBE81E077F980064F3B6 /* Flappy_ShipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E47FBDA1E077F980064F3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E47FBB71E077F980064F3B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E47FBBE1E077F980064F3B6;
+			remoteInfo = "Flappy Ship";
+		};
+		2E47FBE51E077F980064F3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E47FBB71E077F980064F3B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E47FBBE1E077F980064F3B6;
+			remoteInfo = "Flappy Ship";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E47FBBF1E077F980064F3B6 /* Flappy Ship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Ship.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E47FBC21E077F980064F3B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E47FBC41E077F980064F3B6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2E47FBC61E077F980064F3B6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2E47FBC81E077F980064F3B6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2E47FBCA1E077F980064F3B6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2E47FBCD1E077F980064F3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E47FBCF1E077F980064F3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E47FBD21E077F980064F3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E47FBD41E077F980064F3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E47FBD91E077F980064F3B6 /* Flappy ShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy ShipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E47FBDD1E077F980064F3B6 /* Flappy_ShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_ShipTests.swift; sourceTree = "<group>"; };
+		2E47FBDF1E077F980064F3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E47FBE41E077F980064F3B6 /* Flappy ShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy ShipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E47FBE81E077F980064F3B6 /* Flappy_ShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_ShipUITests.swift; sourceTree = "<group>"; };
+		2E47FBEA1E077F980064F3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E47FBBC1E077F980064F3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBD61E077F980064F3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBE11E077F980064F3B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E47FBB61E077F980064F3B6 = {
+			isa = PBXGroup;
+			children = (
+				2E47FBC11E077F980064F3B6 /* Flappy Ship */,
+				2E47FBDC1E077F980064F3B6 /* Flappy ShipTests */,
+				2E47FBE71E077F980064F3B6 /* Flappy ShipUITests */,
+				2E47FBC01E077F980064F3B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E47FBC01E077F980064F3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E47FBBF1E077F980064F3B6 /* Flappy Ship.app */,
+				2E47FBD91E077F980064F3B6 /* Flappy ShipTests.xctest */,
+				2E47FBE41E077F980064F3B6 /* Flappy ShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E47FBC11E077F980064F3B6 /* Flappy Ship */ = {
+			isa = PBXGroup;
+			children = (
+				2E47FBC21E077F980064F3B6 /* AppDelegate.swift */,
+				2E47FBC41E077F980064F3B6 /* GameScene.sks */,
+				2E47FBC61E077F980064F3B6 /* Actions.sks */,
+				2E47FBC81E077F980064F3B6 /* GameScene.swift */,
+				2E47FBCA1E077F980064F3B6 /* GameViewController.swift */,
+				2E47FBCC1E077F980064F3B6 /* Main.storyboard */,
+				2E47FBCF1E077F980064F3B6 /* Assets.xcassets */,
+				2E47FBD11E077F980064F3B6 /* LaunchScreen.storyboard */,
+				2E47FBD41E077F980064F3B6 /* Info.plist */,
+			);
+			path = "Flappy Ship";
+			sourceTree = "<group>";
+		};
+		2E47FBDC1E077F980064F3B6 /* Flappy ShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E47FBDD1E077F980064F3B6 /* Flappy_ShipTests.swift */,
+				2E47FBDF1E077F980064F3B6 /* Info.plist */,
+			);
+			path = "Flappy ShipTests";
+			sourceTree = "<group>";
+		};
+		2E47FBE71E077F980064F3B6 /* Flappy ShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E47FBE81E077F980064F3B6 /* Flappy_ShipUITests.swift */,
+				2E47FBEA1E077F980064F3B6 /* Info.plist */,
+			);
+			path = "Flappy ShipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E47FBBE1E077F980064F3B6 /* Flappy Ship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E47FBED1E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy Ship" */;
+			buildPhases = (
+				2E47FBBB1E077F980064F3B6 /* Sources */,
+				2E47FBBC1E077F980064F3B6 /* Frameworks */,
+				2E47FBBD1E077F980064F3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flappy Ship";
+			productName = "Flappy Ship";
+			productReference = 2E47FBBF1E077F980064F3B6 /* Flappy Ship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E47FBD81E077F980064F3B6 /* Flappy ShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E47FBF01E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy ShipTests" */;
+			buildPhases = (
+				2E47FBD51E077F980064F3B6 /* Sources */,
+				2E47FBD61E077F980064F3B6 /* Frameworks */,
+				2E47FBD71E077F980064F3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E47FBDB1E077F980064F3B6 /* PBXTargetDependency */,
+			);
+			name = "Flappy ShipTests";
+			productName = "Flappy ShipTests";
+			productReference = 2E47FBD91E077F980064F3B6 /* Flappy ShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E47FBE31E077F980064F3B6 /* Flappy ShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E47FBF31E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy ShipUITests" */;
+			buildPhases = (
+				2E47FBE01E077F980064F3B6 /* Sources */,
+				2E47FBE11E077F980064F3B6 /* Frameworks */,
+				2E47FBE21E077F980064F3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E47FBE61E077F980064F3B6 /* PBXTargetDependency */,
+			);
+			name = "Flappy ShipUITests";
+			productName = "Flappy ShipUITests";
+			productReference = 2E47FBE41E077F980064F3B6 /* Flappy ShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E47FBB71E077F980064F3B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PJ;
+				TargetAttributes = {
+					2E47FBBE1E077F980064F3B6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P39R2ZWLUA;
+						ProvisioningStyle = Automatic;
+					};
+					2E47FBD81E077F980064F3B6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P39R2ZWLUA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E47FBBE1E077F980064F3B6;
+					};
+					2E47FBE31E077F980064F3B6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P39R2ZWLUA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E47FBBE1E077F980064F3B6;
+					};
+				};
+			};
+			buildConfigurationList = 2E47FBBA1E077F980064F3B6 /* Build configuration list for PBXProject "Flappy Ship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E47FBB61E077F980064F3B6;
+			productRefGroup = 2E47FBC01E077F980064F3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E47FBBE1E077F980064F3B6 /* Flappy Ship */,
+				2E47FBD81E077F980064F3B6 /* Flappy ShipTests */,
+				2E47FBE31E077F980064F3B6 /* Flappy ShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E47FBBD1E077F980064F3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E47FBCE1E077F980064F3B6 /* Main.storyboard in Resources */,
+				2E47FBC51E077F980064F3B6 /* GameScene.sks in Resources */,
+				2E47FBD01E077F980064F3B6 /* Assets.xcassets in Resources */,
+				2E47FBD31E077F980064F3B6 /* LaunchScreen.storyboard in Resources */,
+				2E47FBC71E077F980064F3B6 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBD71E077F980064F3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBE21E077F980064F3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E47FBBB1E077F980064F3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E47FBC91E077F980064F3B6 /* GameScene.swift in Sources */,
+				2E47FBCB1E077F980064F3B6 /* GameViewController.swift in Sources */,
+				2E47FBC31E077F980064F3B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBD51E077F980064F3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E47FBDE1E077F980064F3B6 /* Flappy_ShipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47FBE01E077F980064F3B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E47FBE91E077F980064F3B6 /* Flappy_ShipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E47FBDB1E077F980064F3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E47FBBE1E077F980064F3B6 /* Flappy Ship */;
+			targetProxy = 2E47FBDA1E077F980064F3B6 /* PBXContainerItemProxy */;
+		};
+		2E47FBE61E077F980064F3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E47FBBE1E077F980064F3B6 /* Flappy Ship */;
+			targetProxy = 2E47FBE51E077F980064F3B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E47FBCC1E077F980064F3B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E47FBCD1E077F980064F3B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E47FBD11E077F980064F3B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E47FBD21E077F980064F3B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E47FBEB1E077F980064F3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E47FBEC1E077F980064F3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E47FBEE1E077F980064F3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy Ship/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-Ship";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E47FBEF1E077F980064F3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy Ship/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-Ship";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2E47FBF11E077F980064F3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy ShipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-ShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Ship.app/Flappy Ship";
+			};
+			name = Debug;
+		};
+		2E47FBF21E077F980064F3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy ShipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-ShipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Ship.app/Flappy Ship";
+			};
+			name = Release;
+		};
+		2E47FBF41E077F980064F3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy ShipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-ShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Flappy Ship";
+			};
+			name = Debug;
+		};
+		2E47FBF51E077F980064F3B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P39R2ZWLUA;
+				INFOPLIST_FILE = "Flappy ShipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PJ-Conde-Personal.Flappy-ShipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Flappy Ship";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E47FBBA1E077F980064F3B6 /* Build configuration list for PBXProject "Flappy Ship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E47FBEB1E077F980064F3B6 /* Debug */,
+				2E47FBEC1E077F980064F3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E47FBED1E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy Ship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E47FBEE1E077F980064F3B6 /* Debug */,
+				2E47FBEF1E077F980064F3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E47FBF01E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy ShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E47FBF11E077F980064F3B6 /* Debug */,
+				2E47FBF21E077F980064F3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E47FBF31E077F980064F3B6 /* Build configuration list for PBXNativeTarget "Flappy ShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E47FBF41E077F980064F3B6 /* Debug */,
+				2E47FBF51E077F980064F3B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E47FBB71E077F980064F3B6 /* Project object */;
+}
