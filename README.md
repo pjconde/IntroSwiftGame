@@ -1,7 +1,5 @@
 # IntroSwiftGame
 
-# Flappy Ship
- 
 ### Disclaimer:
 The original Flappy Bird game is not my own creation and neither is the original Galaga ship sprite which I based my sprite off of.
  
